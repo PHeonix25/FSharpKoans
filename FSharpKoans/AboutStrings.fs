@@ -89,7 +89,7 @@ module ``about strings`` =
            make the asserts pass *)
         let getFunFacts x =
             sprintf "%d doubled is %d, and %d tripled is %d!" 
-                x (x*2) x (x*3)
+                x (x * 2) x  (x * 3)
 
         let funFactsAboutThree = getFunFacts 3
         let funFactsAboutSix = getFunFacts 6
